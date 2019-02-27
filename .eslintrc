@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    "strict": 0,
+    "no-tabs": "off",
+    "no-plusplus": "off",
+    "import/no-cycle": "off",
+    "no-return-assign": "off",
+    "operator-linebreak": "off",
+    "object-curly-newline": "off",
+    "no-extra-boolean-cast": "off",
+    "jsx-a11y/label-has-for": "off",
+    "allowForLoopAfterthoughts": true,
+    "no-mixed-spaces-and-tabs": "off",
+    "implicit-arrow-linebreak": "off",
+    "react/no-array-index-key": "off",
+    "react/jsx-wrap-multilines": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "declaration": {
+      "allowArrowFuntions": true
+    }
+  },
+  "env": {
+    "browser": true
+  }
+}
